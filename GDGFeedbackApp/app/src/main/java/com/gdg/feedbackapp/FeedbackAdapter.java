@@ -22,9 +22,7 @@ Context context;
 public FeedbackAdapter(ArrayList<GDGFeedback>feedbackList){
 
     gdgFeedbackList = feedbackList;
-    GDGFeedback g =
-            new GDGFeedback("Sourabh","studebt",1,"graduate","good",20,true);
-gdgFeedbackList.add(g);
+
 }
 
   class FeedBackViewHolder extends  RecyclerView.ViewHolder{

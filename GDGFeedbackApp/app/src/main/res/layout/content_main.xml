@@ -99,12 +99,20 @@
                   android:layout_height="wrap_content"
                   android:text="I agree with the terms and conditions of GDG."
                   android:id="@+id/consentCB"/>
+
               <Button
 
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:id="@+id/submitBtn"
                   android:text="Submit"/>
+
+              <Button
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/getFeedBackBtn"
+                  android:text="Show Feedback from Web"/>
           </LinearLayout>
 
 

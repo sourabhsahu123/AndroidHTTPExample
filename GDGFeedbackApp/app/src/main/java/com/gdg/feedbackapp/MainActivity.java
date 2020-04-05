@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 ArrayList<GDGFeedback> gList;
 SharedPreferences mypref=null;
 DBHelper dbHelper=null;
-
+Button getFeedBackBtn=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,9 +59,15 @@ DBHelper dbHelper=null;
         suggestionET=(EditText) findViewById(R.id.suggestionET);
         ageSB=(SeekBar)findViewById(R.id.ageSB);
         agreeCB=(CheckBox)findViewById(R.id.consentCB);
+        getFeedBackBtn =(Button)findViewById(R.id.getFeedBackBtn);
 
-
-
+        getFeedBackBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, GDGWebFeedBackFetcher.class);
+                startActivity(i);
+            }
+        });
     submitBtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
