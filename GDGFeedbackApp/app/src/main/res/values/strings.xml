@@ -3,6 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_thank_you">ThankYouActivity</string>
     <string name="title_activity_gdgweb_feed_back_fetcher">GDGWebFeedBackFetcher</string>
+    <string name="title_activity_gdgmembers_location">GDGMembersLocation</string>
+    <string name="title_activity_gdgdisplay_member">Map</string>
     <string-array name="qualification">
         <item>Select Qualification</item>
         <item>Higher Secondary</item>
